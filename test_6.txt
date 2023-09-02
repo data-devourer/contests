@@ -1,0 +1,13 @@
+# Task 2 check 3
+m = Matrix([[1, 1, 0], [0, 2, 10], [10, 15, 30]])
+alpha = 15
+print(m * alpha)
+print(alpha * m)
+
+# Correct answer:
+# 15	15	0
+# 0	30	150
+# 150	225	450
+# 15	15	0
+# 0	30	150
+# 150	225	450
