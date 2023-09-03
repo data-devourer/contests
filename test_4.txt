@@ -1,6 +1,0 @@
-# Task 2 check 1
-m = Matrix([[10, 10], [0, 0], [1, 1]])
-print(m.size())
-
-# Correct answer:
-# (3, 2)
