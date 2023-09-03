@@ -1,0 +1,32 @@
+# Task 2 check 1
+m = Matrix([[10, 10], [0, 0], [1, 1]])
+print(m.size())
+
+# Correct answer:
+# (3, 2)
+
+
+|# Task 2 check 2
+m1 = Matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
+m2 = Matrix([[0, 1, 0], [20, 0, -1], [-1, -2, 0]])
+print(m1 + m2)
+
+# Correct answer:
+# 1	1	0
+# 20	1	-1
+# -1	-2	1
+
+
+|# Task 2 check 3
+m = Matrix([[1, 1, 0], [0, 2, 10], [10, 15, 30]])
+alpha = 15
+print(m * alpha)
+print(alpha * m)
+
+# Correct answer:
+# 15	15	0
+# 0	30	150
+# 150	225	450
+# 15	15	0
+# 0	30	150
+# 150	225	450
